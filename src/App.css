@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 20rem;
+  height: 80vh;
+  border-radius: 20px;
+  background: #1c324e;
+  padding: 20px;
+  width: 60vw;
+  height: 80vh;
+}
+.logo{
+  width: 16.8vw;
+    height: 33.3vh;
+    /* border-radius: 20px; */
+    /* background-color: #fff; */
+  
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Circle-icons-weather.svg/240px-Circle-icons-weather.svg.png');
+   
+    margin-top: 13rem;
+    margin-left: -10rem;
+    margin-right: 10rem;
+}
+.start{
+  display: flex;
+}
+
+
+.name{
+  color: #fcfcfc;
+ 
+}
+
+
+
+.box{
+  background-color: #f8faf8;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
